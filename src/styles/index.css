@@ -1,0 +1,35 @@
+body > div {
+  width: 100%;
+}
+
+.grid-container ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(auto, 100px);
+}
+
+#list li {
+  padding: 16px;
+  margin-left: 16px;
+  margin-bottom: 16px;
+
+  background-color: #f0f0f0;
+}
+
+#list li a {
+  text-decoration: none;
+
+  color: #000;
+}
+
+.item {
+  display: flex; /* Utiliza flexbox para os elementos filhos */
+  flex-direction: row; /* Empilha os elementos verticalmente */
+  justify-content: center;
+}
+
+
+.item a {
+  text-decoration: none;
+  color: #000;
+}
